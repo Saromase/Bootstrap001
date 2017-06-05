@@ -9,7 +9,7 @@ body{
 }
 
 
-/* Header
+/* Header */
 .header {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -28,7 +28,6 @@ body{
 
 }
 
-*/
 
 /* Body */
 
@@ -64,9 +63,6 @@ body {
 }
 
 .container {
-  margin-left: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
   font-color: black;
   background-color: #FFFFFF 
 }
@@ -94,16 +90,15 @@ body {
   font-size: 15px;
   text-align: justify;
 }
-
   .col-lg-6 {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 50%;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-    max-width: 50%;
-    border: 2px solid #eceeef;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      border: 2px solid #eceeef;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
   }
 
 .col-lg-12 { 
