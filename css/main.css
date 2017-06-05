@@ -210,3 +210,31 @@ body {
     margin-bottom: 50px;
     color: grey;
 }
+
+/* Menu en tete*/
+.menu {
+    background-color: transparent;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+
+}
+.menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px 12px;
+    text-decoration: none;
+    border: 1px solid #eceeef;
+}
+.menu li {
+    float: left;
+}
+.menu :hover {
+    border: 1px solid #18bfef;
+}
+.menu:active {
+    background-color: #eceeef;
+}
