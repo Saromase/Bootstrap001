@@ -48,11 +48,11 @@ h2 {
 }
 
 h1:hover {
-  color: #18bfef;
+    color: #18bfef;
 }
 
 h2:hover {
-  color: #18bfef;
+    color: #18bfef;
 }
 
 body {
@@ -63,20 +63,20 @@ body {
 }
 
 .container {
-  font-color: black;
-  background-color: #FFFFFF 
+    font-color: black;
+    background-color: #FFFFFF
 }
 
 .row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .presentation {
@@ -86,54 +86,54 @@ body {
 }
 
 .description {
-  padding: 2rem 2rem 2rem;
-  font-size: 15px;
-  text-align: justify;
+    padding: 2rem 2rem 2rem;
+    font-size: 15px;
+    text-align: justify;
 }
-  .col-lg-6 {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 50%;
-      -ms-flex: 0 0 50%;
-      flex: 0 0 50%;
-      max-width: 50%;
-      border: 2px solid #eceeef;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-  }
+.col-lg-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    border: 2px solid #eceeef;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
 .col-lg-12 { 
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%;
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
+}
 
 .image {
     padding-bottom: 3rem;
     max-width: 40%;
     margin-left: 2.5rem;
-    margin-right: 4rem; 
+    margin-right: 4rem;
 }
 .image-main {
     padding-bottom: 2rem;
     width: 100%;
-    }
+}
 
 .image:hover img {
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-    }
+}
 
- .date {
+.date {
     text-align: center;
-        }
+}
 
-        /* =================BOUTON FULL STORY================= */
+/* =================BOUTON FULL STORY================= */
 
 .button {
     -moz-appearance: none;
@@ -164,12 +164,17 @@ body {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px #212931;
     color: #212931;
-  }
+}
 
 
-    .button:hover {
-      box-shadow: inset 0 0 0 2px #18bfef;
-      color: #18bfef;
-    }
+.button:hover {
+    box-shadow: inset 0 0 0 2px #18bfef;
+    color: #18bfef;
+}
 
-     
+.logo {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
