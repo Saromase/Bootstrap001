@@ -215,7 +215,9 @@ body {
 .menu {
     background-color: transparent;
     text-transform: uppercase;
+    text-align: ;
     font-weight: bold;
+    border: 2px solid black;
 }
 .menu ul {
     list-style-type: none;
@@ -227,16 +229,16 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 5px 32px;
+    padding: 20px 22px;
     text-decoration: none;
-    border: 1px solid #eceeef;
 }
 .menu li {
     float: left;
 }
-.menu :hover {
-    border: 1px solid #18bfef;
+/*Icons */
+.icons {
+    margin-left: 375px;
 }
-.menu:active {
-    background-color: #eceeef;
+.icons i {
+    font-size: 40px;
 }
