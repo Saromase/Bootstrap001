@@ -214,6 +214,8 @@ body {
 /* Menu en tete*/
 .menu {
     background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .menu ul {
     list-style-type: none;
@@ -225,7 +227,7 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 1px 12px;
+    padding: 5px 32px;
     text-decoration: none;
     border: 1px solid #eceeef;
 }
