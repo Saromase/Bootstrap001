@@ -178,3 +178,31 @@ body {
     margin: auto;
     text-align: center;
 }
+/* Navigation entre les pages*/
+
+.navigation ul {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px 12px;
+    text-decoration: none;
+    border: 1px solid #eceeef;
+}
+.navigation li {
+    float: left;
+}
+.navigation :hover {
+    border: 1px solid #18bfef;
+}
+.navigation:active {
+    background-color: #eceeef;
+}
